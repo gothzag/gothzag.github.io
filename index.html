@@ -1,53 +1,87 @@
 <html>
 
 <head>
-  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital@0;1&family=IBM+Plex+Sans+Condensed:ital@0;1&family=IBM+Plex+Sans:ital,wght@0,100;0,400;0,700;1,100;1,400;1,700&family=IBM+Plex+Serif:ital@0;1&display=swap" rel="stylesheet" type="text/css" href="https://wytchbolt.github.io/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet" rel="stylesheet" type="text/css" href="https://wytchbolt.github.io/styles.css">
   <style>
     body {
-      width: 100vw;
-      height: 100vh;
-      overflow: hidden;
-      background: #141313;
+      background: #282a36;
     }
 
     h1 {
       font-family: "IBM Plex Mono", monospace;
-      font-style: regular;
-      font-weight: 400;
+      font-style: semibold;
+      font-weight: 600;
       color: #f8f8f2;
       margin-top: 20px;
       text-align: center;
     }
 
+    h2 {
+      font-family: "IBM Plex Mono", monospace;
+      font-style: semibold;
+      font-weight: 600;
+      color: #f8f8f2;
+      margin-top: 30px;
+      text-align: center;
+    }
+
+    a {
+      font-family: "IBM Plex Mono", monospace;
+      font-style: regular;
+      font-weight: 400;
+      color: #8be9fd;
+    }
+
+    .auto-type {
+      color: #ff79c6;
+    }
+
     .box {
-      display: flex;
       align-items: center;
       justify-content: center;
+      display: flex;
     }
 
-    .box div {
-      width: 100px;
-      height: 100px;
-    }
-
-    u {
+    .box>div {
+      padding: 20px;
       font-family: "IBM Plex Mono", monospace;
-      font-style: italic;
+      font-style: regular;
       font-weight: 400;
+      font-size: 20px;
       color: #f8f8f2;
-      text-decoration-style: wavy;
-      text-decoration-color: #f77652;
     }
   </style>
-</head>
 
 <body>
-  <h1>i'll set this up <u>eventually</u>.</h1>
-  <div class="box">
-    <div>
-      <img class="gif" src="https://wytchbolt.s3.us-east-2.amazonaws.com/(a)sheepish.gif">
-    </div>
+  <div class="container">
+    <h1>Salut, je m'appelle <span class="auto-type"></span></h1>
   </div>
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <script>
+    var typed = new Typed(".auto-type", {
+      strings: ["Wytchbolt.", "Celestine.", "Cel.", "Cel!"],
+      typeSpeed: 150,
+      backSpeed: 150,
+      loop: false
+    })
+  </script>
+
+  <main>
+    <h2>Projets et tel...</h2>
+    <div class="flex-container">
+      <div><a href="https://wytchbolt.github.io/random-gyakuten/">Random-Gyakuten</a></div>
+      <div><a href="https://github.com/wytchbolt/AA-transcripts">AA-Transcripts</a></div>
+      <div><a href="https://github.com/wytchbolt/AA-3dModelRips">AA-3dModelRips</a></div>
+  </main>
+  <main>
+    <h2>Links et tel...</h2>
+    <div class="flex-container">
+      <div><a href="https://github.com/wytchbolt">Github</a></div>
+      <div><a href="https://twitter.com/edgeworthdono">Twitter</a></div>
+  </main>
+
 </body>
 
 </html>

@@ -1,34 +1,41 @@
 body {
   width: 100vw;
   height: 100vh;
-  overflow: hidden;
-  background: #141313;
+  background: #282a36;
 }
 h1 {
   font-family: "IBM Plex Mono", monospace;
-  font-style: regular;
-  font-weight: 400;
+  font-style: semibold;
+  font-weight: 600;
   color: #f8f8f2;
   margin-top: 20px;
   text-align: center;
 }
-
-.box {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+h2 {
+  font-family: "IBM Plex Mono", monospace;
+  font-style: semibold;
+  font-weight: 600;
+  color: #f8f8f2;
+  text-align: center;
 }
-
-.box div {
-  width: 100px;
-  height: 100px;
-}
-
-u {
+a {
   font-family: "IBM Plex Mono", monospace;
   font-style: italic;
   font-weight: 400;
   color: #f8f8f2;
-  text-decoration-style: wavy;
-  text-decoration-color: #f77652;
+}
+.flex-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: auto;
+}
+
+.flex-container > div {
+  padding: 20px;
+  font-family: "IBM Plex Mono", monospace;
+  font-style: regular;
+  font-weight: 400;
+  font-size: 16px;
+  color: #f8f8f2;
 }
