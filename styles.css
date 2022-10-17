@@ -9,9 +9,6 @@ h1 {
   font-style: regular;
   font-weight: 400;
   color: #f8f8f2;
-}
-
-h1 {
   margin-top: 20px;
   text-align: center;
 }
@@ -32,6 +29,6 @@ u {
   font-style: italic;
   font-weight: 400;
   color: #f8f8f2;
-  text-decoration-style: solid;
+  text-decoration-style: wavy;
   text-decoration-color: #f77652;
 }
