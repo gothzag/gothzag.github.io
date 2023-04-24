@@ -1,13 +1,13 @@
 body {
   width: 100vw;
   height: 100vh;
-  background: #282a36;
+  background: #141015;
 }
 h1 {
   font-family: "IBM Plex Mono", monospace;
   font-style: semibold;
   font-weight: 600;
-  color: #f8f8f2;
+  color: #f1e2ff;
   margin-top: 20px;
   text-align: center;
 }
@@ -15,14 +15,14 @@ h2 {
   font-family: "IBM Plex Mono", monospace;
   font-style: semibold;
   font-weight: 600;
-  color: #f8f8f2;
+  color: #f1e2ff;
   text-align: center;
 }
 a {
   font-family: "IBM Plex Mono", monospace;
   font-style: italic;
   font-weight: 400;
-  color: #f8f8f2;
+  color: #ca91ff;
 }
 .flex-container {
   display: flex;
@@ -37,5 +37,5 @@ a {
   font-style: regular;
   font-weight: 400;
   font-size: 16px;
-  color: #f8f8f2;
+  color: #f1e2ff;
 }
